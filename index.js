@@ -89,7 +89,7 @@ for (var i=0;i<cart.length;i++){
 
 function placeOrder(cardNumber) {
   if (!cardNumber) {
-    var temp="We don't have a credit card on file for you to place your order.";
+    var temp="Sorry, we don't have a credit card on file for you.";
   }
 else{
    temp=`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
