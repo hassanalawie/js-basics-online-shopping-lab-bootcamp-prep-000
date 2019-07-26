@@ -76,10 +76,11 @@ function removeFromCart(item) {
     if(item===cart[i]['itemName']) {
       cart.splice(i, 1);
       return cart;}
+  }
       else 
       {return console.log('That item is not in your cart.');}
     
-  }
+  
 
 }
 
