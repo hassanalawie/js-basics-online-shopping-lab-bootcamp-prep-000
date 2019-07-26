@@ -75,12 +75,12 @@ function removeFromCart(item) {
 
     if(item===cart[0]['itemName']) {
       cart.splice(0, 1);
-      var temp = cart
+      var temp = cart;
     }
       
       else if(item===cart[1]['itemName']) {
       cart.splice(1, 1);
-        temp=cart
+      temp=cart;
       }
       
       else 
