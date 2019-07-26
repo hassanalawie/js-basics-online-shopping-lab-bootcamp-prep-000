@@ -76,10 +76,10 @@ for (var i=0;i<cart.length;i++){
     if(item===cart[i]['itemName']) {
       cart.splice(0, 1);
       var temp = cart;
-    }
-      else 
+    }}
+       
       {temp ='That item is not in your cart.';}
-  return temp;}
+  return temp;
 }
 
 removeFromCart("pear");
