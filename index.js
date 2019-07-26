@@ -78,8 +78,8 @@ for (var i=0;i<cart.length;i++){
       var temp = cart;
     }
       else 
-      {temp ='That item is not in your cart.';}}
-  return temp;
+      {temp ='That item is not in your cart.';}
+  return temp;}
 }
 
 removeFromCart("pear");
