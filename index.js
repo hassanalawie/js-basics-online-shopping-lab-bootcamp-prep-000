@@ -82,9 +82,10 @@ for (var i=0;i<cart.length;i++){
   return temp;
 }
 
-removeFromCart("pear");
-removeFromCart("banana");
-console.log(cart);
+
+
+
+
 
 function placeOrder(cardNumber) {
   if (!cardNumber) {
@@ -94,6 +95,10 @@ function placeOrder(cardNumber) {
   console.log(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`);
 
   cart = [];
+  
+  
+  
+  
 }
 
 function total() {
