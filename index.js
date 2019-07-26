@@ -71,7 +71,6 @@ function viewCart() {
 
 function removeFromCart(item) {
   // write your code here
-  console.log(item);
 
     if(item===cart[0].itemName) {
       cart.splice(0, 1);
@@ -80,6 +79,11 @@ function removeFromCart(item) {
       
       else if(item===cart[1].itemName) {
       cart.splice(1, 1);
+      temp=cart;
+      }
+      
+      else if(item===cart[2].itemName) {
+      cart.splice(2, 1);
       temp=cart;
       }
       
