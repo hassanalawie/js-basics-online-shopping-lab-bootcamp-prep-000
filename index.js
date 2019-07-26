@@ -72,20 +72,14 @@ function viewCart() {
 function removeFromCart(item) {
   // write your code here
   console.log(item);
-
-    if(item===cart[0]['itemName']) {
+for (var i=0;i<cart.length;i++)
+    if(item===cart[i]['itemName']) {
       cart.splice(0, 1);
       var temp = cart;
     }
-      
-      else if(item===cart[1]['itemName']) {
-      cart.splice(1, 1);
-      temp=cart;
-      }
-      
       else 
       {temp ='That item is not in your cart.';}
-      return temp;
+  return temp;
 }
 
 removeFromCart("pear");
