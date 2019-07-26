@@ -18,9 +18,6 @@ function addToCart(item) {
 }
 
 
-addToCart("banana");
-addToCart("apple");
-console.log(cart);
 
 
 
@@ -80,9 +77,7 @@ function removeFromCart(item) {
   return cart
 }
 
-removeFromCart("pear")
-removeFromCart("banana")
-console.log(cart)
+
 
 function placeOrder(cardNumber) {
   if (!cardNumber) {
